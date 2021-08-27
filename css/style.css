@@ -3,12 +3,11 @@ body{
     text-align: center;
     font-family: "Arial";
 }
+
 h1{
     color:darkblue;
 }
-.primer-parrafo{
-    color:darkmagenta;
-}
+
 p{
     color: darkgreen;
 }
