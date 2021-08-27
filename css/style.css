@@ -1,13 +1,39 @@
-body{
-    color:darkgrey;
-    text-align: center;
-    font-family: "Arial";
+body {
+  color: darkgrey;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Arial";
 }
 
-h1{
-    color:darkblue;
+header {
+  display: flex;
+  background-color: #fafafa;
+  box-shadow: 0 3px 3px rgb(0 0 0 / 5%);
+  height: 90px;
+  justify-content: space-between;
+  padding: 0 32px;
 }
 
-p{
-    color: darkgreen;
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav > ul {
+  display: flex;
+  padding: 0;
+}
+
+nav li {
+  list-style: none;
+  padding: 0 8px 0 8px;
+}
+
+h1 {
+  color: darkblue;
+}
+
+p {
+  color: darkgreen;
 }
